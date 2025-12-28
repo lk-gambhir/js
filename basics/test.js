@@ -35,4 +35,21 @@ console.log("2" === 2) //false because compares datatype as well
 // undefined
 // symbol
 
-// object 
+// object , array , function -> Primitive datatype
+
+let heroes = ["Spiderman","Superman","Batman"]
+console.log(heroes)
+console.log(typeof heroes) //object
+
+let myfunc = function(){
+    console.log("Hello world")
+}
+myfunc()
+console.log(typeof myfunc) //function(called function_object)
+
+let myobj = {
+    name : "Lakshay",
+    age : 19
+}
+console.log(myobj)
+console.log(typeof myobj) //object
